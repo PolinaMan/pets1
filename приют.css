@@ -1,0 +1,449 @@
+body{
+    display: grid;
+    grid-template-columns:1fr 67vw 1fr ;
+    grid-template-rows: 84vh 54vh 81vh 57vh 43vh 32vh;
+}
+header{
+    background: radial-gradient(at top left, #5B483A, #262425);
+    color: #ffffff;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 1280px;
+    height: 908px ;
+}
+.top_head{
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: 40px;
+    top: 60px;
+}
+.logo_title{
+    position: absolute;
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    left: px;
+    top: px;
+    
+}
+.logo_subtitle{
+    position: absolute;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    left: 4px;
+    top: 60px;
+}
+h1{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+}
+h3{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+h4{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+h5{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+}
+a {
+    text-decoration: none;
+    color: #CDCDCD;
+}
+a.card{
+    color: #545454;
+}
+.paragraph{
+    position: absolute;
+    left: 707px;
+    top: 20px;
+}
+.paragraphl{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    border-bottom: 2px solid #F1CDB3;
+}
+
+ul, li{
+    float: left;
+    margin: 0px 10px;
+    line-height: 160%;
+    list-style-type: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+.heading{
+    position: absolute;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 130%;
+    left: 40px;
+    top: 353px;
+}
+.subheading{
+    position: absolute;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    left: 40px;
+    top: 509px;
+}
+.start-puppy{
+    position: absolute;
+    left: 582px;
+    top: 190px;
+
+}
+.button_primary{
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    border: 1px solid  #F1CDB3;
+    cursor: pointer;
+}
+.button_primary:hover{
+    background: radial-gradient(at top, white, #F1CDB3);
+    box-shadow: 5px 5px 5px #262425;
+}
+.button_secondary:hover{
+    background: radial-gradient(at top, white, #F1CDB3);
+    box-shadow: 5px 5px 5px #262425;
+}
+.arrow:hover{
+    background: radial-gradient(at top, white, #F1CDB3);
+    box-shadow: 5px 5px 5px #262425;
+}
+.position_button_primary{
+    position: absolute;
+    left: 40px;
+    top: 623px;
+}
+.big-primary{
+    width: 261px;
+}
+.about{
+    position: absolute;
+    top:908px;
+    width: 1280px;
+    height: 588px;
+    background: #FFFFFF;
+}
+.about_content{
+    position: absolute;
+    left: 635px;
+    top:94px;
+}
+.about_pets{
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    left: 215px;
+    top: 80px;
+}
+.about_heading{
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.about_subheading{
+    color: #4C4C4C;
+}
+.pets{
+    position: absolute;
+    width: 1280px;
+    height: 877px;
+    top: 1496px;
+    background: #F6F6F6;
+}
+.pets_heading{
+    position: absolute; 
+    left: 35%;
+    top:80px;
+    align-items: center;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button_secondary{
+    width: 207px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    cursor: pointer;
+}
+.button_pets{
+    position: absolute;
+    left: 10%;
+    top: 360px;
+}
+.name{
+    position: absolute;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    top: 300px;
+    left: 35%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.big-pets{
+    position: absolute;
+    width: 1200;
+    height: 435;
+    left: 40px;
+    top: 230;
+}
+.smol-pets{
+    border: 1px solid  #F6F6F6;
+    border-radius: 9px 9px 0px 0px;
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    top: 0px;
+}
+.smol-pets:hover{
+    box-shadow: 5px 5px 5px #F1CDB3;
+
+}
+.pets_position1{
+    position: absolute;
+    top: 420px;
+    left: 0px;
+}
+.pets_position2{
+    position: absolute;
+    top: 230px;
+    left: 105px;
+}
+.pets_position3{
+    position: absolute;
+    top: 230px;
+    left: 465px;
+}
+.pets_position4{
+    position: absolute;
+    top: 230px;
+    left: 825px;
+}
+.pets_position5{
+    position: absolute;
+    top: 420px;
+    left: 1150px;
+}
+.big-primary_position{
+    position: absolute;
+    left: 510px;
+    top: 725px;
+}
+.help{
+    position: absolute;
+    display: grid;
+    grid-template-columns:repeat(20, 5%);
+    grid-template-rows:1fr 1fr 1fr;
+    width: 1280px;
+    height: 611px;
+    top:2373px;
+    background: #FFFFFF;
+}
+.help_heading{
+    grid-column: 8 / 14;
+    align-items: center;
+    text-align: center;
+}
+.food{
+    grid-row: 2;
+    grid-column: 3 / 6;
+    align-items: center;
+    text-align: center;
+}
+.transportation{
+    grid-row: 2;
+    grid-column: 6/10;
+    align-items: center;
+    text-align: center;
+}
+.toys{
+    grid-row: 2;
+    grid-column: 10/12;
+    align-items: center;
+    text-align: center;
+}
+.bowls-and-cups{
+    grid-row: 2;
+    grid-column: 12/16;
+    align-items: center;
+    text-align: center;
+}
+.shampoos{
+    grid-row: 2;
+    grid-column: 16/19;
+    align-items: center;
+    text-align: center;
+}
+.vitamins{
+    grid-row: 3;
+    grid-column: 5/8;
+    align-items: center;
+    text-align: center;
+}
+.medicines{
+    grid-row: 3;
+    grid-column: 8/11;
+    align-items: center;
+    text-align: center;
+}
+.collars-or-leashes{
+    grid-row: 3;
+    grid-column: 11/14;
+    align-items: center;
+    text-align: center;
+}
+.sleeping-area{
+    grid-row: 3;
+    grid-column: 14/17;
+    align-items: center;
+    text-align: center;
+}
+.donation{
+    position: absolute;
+    display: grid;
+    grid-template-columns:60% 40%;
+    width: 1280px;
+    height: 462px;
+    top: 2984px;
+    background: #F6F6F6;
+}
+.donation-dog{
+    
+    width: 505px;
+    height: 261px;
+    top: 11px;
+    left: 0%;
+}
+.button_big{
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+}
+.donation-description{
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+.donation_left{
+    position: absolute;
+    grid-column: 1;
+    top: 93px;
+    left: 181px;
+}
+.donation_right{
+    position: absolute;
+    grid-column: 2;
+    top: 80px;
+}
+.credit-card{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    align-items: center;
+    letter-spacing: 0.06em;
+}
+.imgs{
+    padding-right: 10px;
+}
+footer{
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    top: 3446px;
+    background: radial-gradient(at top left, #5B483A, #262425);
+    color: #ffffff;
+}
+.footer-content{
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    top: 40px;
+    left: 80px;
+    display: grid;
+    grid-template-columns:1fr 1fr 30%;
+}
+.text{
+    color: #F1CDB3;
+}

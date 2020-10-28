@@ -1,0 +1,83 @@
+header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: radial-gradient(at top left, #5B483A, #262425);
+    width: 1280px;
+    height: 908px ;
+    color: #ffffff;
+}
+.logo_top{
+   
+}
+
+.logo_title{
+    position: absolute;
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    width: 184px;
+    height: 35px;
+}
+.logo_subtitle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+    width: 179px;
+    height: 15px;
+    left: 4px;
+}
+ul, li{
+
+    float: left;
+    margin: 0px 10px;
+    line-height: 160%;
+    list-style-type: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+a {
+    text-decoration: none;
+    color: #CDCDCD;
+}
+.start-screen-puppy{
+    position: absolute;
+    width: 698px;
+    height: 728px;
+    right: 0px;
+}
+.paragraph{
+    position: absolute;
+    left: 60%;
+}
+.paragraphl{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    border-bottom: 2px solid #F1CDB3;
+}
+https://www.google.ru/maps/@44.3591189,38.5294915,18.43z
